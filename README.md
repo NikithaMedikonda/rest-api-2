@@ -193,8 +193,8 @@ ex:
 61th second ( limit will reset after every minute)
 1. `GET /users/1` => is ok
 
-curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"userName":"usha","password":"usha1234","email":"usha@gmail.com","fullname":"ushasri"}'
-curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"userName":"Achyu","password":"achy1234","email":"achyu@gmail.com","fullname":"achyuthsai"}'
+curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"userName":" ","password":" ","email":" ","fullname":" "}'
+curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"userName":" ","password":"v","email":" ","fullname":" "}'
 
 curl -X GET -H "admin-id: 100" "http://localhost:3000/users"
 
